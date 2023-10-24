@@ -52,6 +52,10 @@
 }
 
 /* container and row  */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .row{
     display: flex;
     margin: 0 auto;
@@ -62,10 +66,15 @@
 .gap{
     gap: 20px;
 }
-
+.col-30{
+    width: 30%;
+}
 .col-33{
     width: calc(100% / 3 - 20px);
     
+}
+.col-70{
+    width: 70%;
 }
 .text-end{
     text-align: end;
@@ -77,7 +86,7 @@
 /* HEADER  */
 header{
     background-color: rgb(253, 119, 42);
-    padding-top: 10px;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -85,11 +94,7 @@ header{
 header .row{
     align-items: center;
 }
-header .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 60px;
-}
+
 header ul.d-flex li{
     font-size: 20px;
     list-style-type: none;
@@ -105,10 +110,7 @@ header .logo img{
 main{
     padding-top: 50px;
 }
-main .container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 .product{
     position: relative;
 }
@@ -140,7 +142,15 @@ main .container{
 
 /* FOOTER  */
 footer{
-    background-color: black;
-    height: 100px;
+    background-color: rgb(46, 44, 44);
+    padding: 20px 0;
     margin-top: 50px;
+}
+.company{
+  
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
 }
