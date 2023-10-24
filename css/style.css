@@ -42,6 +42,9 @@
 .position-absolute{
     position: absolute;
 }
+.position-relative{
+    position: relative;
+}
 .padding-5{
     padding: 5px;
 }
@@ -73,6 +76,7 @@ header{
     padding-top: 10px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 header .row{
     align-items: center;
@@ -115,6 +119,9 @@ main .container{
 .old-price{
     text-decoration: line-through;
     font-size: small;
+}
+#margin-left{
+    left: 0;
 }
 
 /* FOOTER  */
