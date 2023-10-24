@@ -39,7 +39,7 @@
 .product:hover .hidden{
     display: block;
 }
-.product:hover .heart{
+.heart:hover {
     color: red;
 }
 .position-absolute{
