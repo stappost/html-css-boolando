@@ -5,7 +5,7 @@
 }
 
 /* COMMON  */
-/* bg and border */
+/* bg  */
 .bg_red{
     background-color: red;
 }
@@ -15,18 +15,17 @@
 .lightgray{
     color: rgb(97, 94, 94);
 }
+/* text  */
 .red{
     color: red;
 }
 .bold{
     font-weight: 600;
 }
-.border{
-    border: 1px solid black;
-}
 .text-white{
     color: #fff;
 }
+/* display and positioning  */
 .show{
     display: block;
 }
@@ -48,12 +47,14 @@
 .padding-5{
     padding: 5px;
 }
+.d-flex{
+    display: flex;
+}
 
 /* container and row  */
 .row{
     display: flex;
     margin: 0 auto;
-    height: 100%;
     width: 80%;
     flex-wrap: wrap;
     
@@ -66,13 +67,16 @@
     width: calc(100% / 3 - 20px);
     
 }
-.justify-center{
-    justify-content: center;
+.text-end{
+    text-align: end;
 }
+.text-center{
+    text-align: center;
+}
+
 /* HEADER  */
 header{
-    height: 80px;
-    background-color: orange;
+    background-color: rgb(253, 119, 42);
     padding-top: 10px;
     position: sticky;
     top: 0;
@@ -86,6 +90,17 @@ header .container{
     margin: 0 auto;
     height: 60px;
 }
+header ul.d-flex li{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px 5px;
+    font-weight: 600;
+}
+header .logo img{
+    max-width: 50%;
+    
+}
+
 /* MAIN  */
 main{
     padding-top: 50px;
@@ -93,7 +108,6 @@ main{
 main .container{
     max-width: 1200px;
     margin: 0 auto;
-    height: 800px;
 }
 .product{
     position: relative;
