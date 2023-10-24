@@ -9,11 +9,35 @@
 .bg_red{
     background-color: red;
 }
+.bg_green{
+    background-color: green;
+}
 .border{
     border: 1px solid black;
 }
-/* container and row  */
+.text-white{
+    color: #fff;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.product:hover .show{
+    display: none;
+}
+.product:hover .hidden{
+    display: block;
+}
+.position-absolute{
+    position: absolute;
+}
+.padding-5{
+    padding: 5px;
+}
 
+/* container and row  */
 .row{
     display: flex;
     margin: 0 auto;
@@ -28,7 +52,7 @@
 
 .col-33{
     width: calc(100% / 3 - 20px);
-    height: 50%;
+    
 }
 .justify-center{
     justify-content: center;
@@ -58,7 +82,27 @@ main .container{
     margin: 0 auto;
     height: 800px;
 }
-
+.product{
+    position: relative;
+}
+.product > img{
+    width: 100%;
+}
+.heart{
+    right: 0;
+    top: 10px;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+.discount{
+    left: 0;
+    bottom: 20px;
+}
+.sustainability{
+    left: 50px;
+    bottom: 20px;
+}
 /* FOOTER  */
 footer{
     background-color: black;
