@@ -12,6 +12,15 @@
 .bg_green{
     background-color: green;
 }
+.lightgray{
+    color: rgb(97, 94, 94);
+}
+.red{
+    color: red;
+}
+.bold{
+    font-weight: 600;
+}
 .border{
     border: 1px solid black;
 }
@@ -103,6 +112,11 @@ main .container{
     left: 50px;
     bottom: 20px;
 }
+.old-price{
+    text-decoration: line-through;
+    font-size: small;
+}
+
 /* FOOTER  */
 footer{
     background-color: black;
